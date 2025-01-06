@@ -1,0 +1,87 @@
+Week 1 Summary (04/12/2024 - 06/12/2024)
+Day 1 - 04/12/2024 (Wednesday):
+I began my journey with Python by getting familiar with the basics of the language. I learned that Python is known for its simplicity, readability, and versatility, making it a great choice for both beginners and experienced developers. I also learned about Python’s syntax and how its indentation-based structure makes the code easy to follow. As a first step, I wrote my first Python program, “Hello, World!”, which was an important first step in understanding how to run Python code. I also got a brief overview of the role of Python in various domains like web development, data analysis, artificial intelligence, and automation.
+
+Day 2 - 05/12/2024 (Thursday):
+I dove deeper into Python's syntax, focusing on variables and data types. Python’s flexibility with data types such as integers, floats, strings, and booleans was a key takeaway. I practiced assigning different types of data to variables and explored how Python handles them without needing explicit type declarations. Additionally, I learned about the importance of SQL (Structured Query Language) in database management. I understood SQL’s role in querying, updating, and deleting data in relational databases, which is essential for web development and other applications that require persistent data storage.
+
+Day 3 - 06/12/2024 (Friday):
+On Day 3, I took a closer look at operators in Python, such as arithmetic, logical, comparison, and assignment operators. I wrote several simple Python programs to practice using these operators, like calculating the area of a rectangle and checking if a number is even or odd. I also began exploring SQL constraints such as PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, and CHECK. Understanding these constraints is critical in ensuring data integrity in relational databases. I wrote SQL queries that applied these constraints to a sample database.
+
+Week 2 Summary (09/12/2024 - 13/12/2024)
+
+
+Day 1: Learning Variables and Operators
+On the first day of Week 2, I deepened my understanding of variables in Python. I explored various types of operators such as arithmetic, logical, comparison, and assignment operators. These tools are fundamental for performing calculations, making decisions, and evaluating expressions in Python programs. I complemented the theory with hands-on practice by writing programs to perform arithmetic operations and logical comparisons. This practical experience helped solidify my understanding of how operators work and how to use them effectively in problem-solving.
+
+Day 2: Python vs. Other Programming Languages
+The second day was dedicated to comparing Python with other programming languages. I learned how Python's simplicity and readability set it apart from more complex languages like Java or C++. Python’s dynamic typing and concise syntax make it easier to learn and implement compared to the stricter, verbose syntax of other languages. I also revisited my first Python program, "Hello, World!", which further reinforced why Python is widely adopted across domains like web development, data science, and machine learning. Its ease of use ensures quicker development and reduces the learning curve.
+
+Day 3: Control Structures
+Day 3 focused on Python's control structures, which are essential for making decisions and iterating through code. I learned about conditional statements (if, else, elif) and loops (for, while). To practice these concepts, I wrote programs to compute factorials and Fibonacci sequences. Additionally, I implemented a program where a user was repeatedly prompted to input the correct password until they got it right, using loops without predefined functions. These exercises highlighted the power and flexibility of control structures in Python and their role in real-world scenarios.
+
+Day 4: Lists, SQL Queries, and DBMS Comparison
+The fourth day was a mix of Python and database concepts. I explored Python lists, learning how to create, access, and manipulate list elements. Simultaneously, I delved into SQL queries and understood the differences between relational and non-relational database management systems (DBMS). Relational DBMS (RDBMS) like MySQL and PostgreSQL store data in structured tables, whereas non-relational DBMS like MongoDB handle unstructured or semi-structured data in collections. I also installed relevant software like MySQL Workbench and Python IDEs to practice database interactions and Python programming seamlessly.
+
+Day 5: Tuples and Database Creation
+On Day 5, I learned about tuples in Python, which are immutable sequences. Their immutability makes them useful for storing fixed data. On the database side, I created a college database, defined a students table, and inserted some records. Using SQL queries, I retrieved and manipulated the data, which solidified my understanding of database operations. The integration of Python and SQL further demonstrated how these technologies complement each other in real-world applications.
+
+Day 6: Practice Day
+The final day of the week was dedicated to revisiting and practicing all the topics I had learned so far. Since there was no office, I utilized the time at home to strengthen my knowledge of Python variables, control structures, lists, tuples, and SQL concepts. I practiced writing programs and executing SQL queries, which gave me more confidence in applying these concepts effectively.
+
+
+Week 3 Summary (16/12/2024 - 20/12/2024)
+
+Day 1: Functions in Python
+
+The focus of Day 1 was on understanding the concept of functions in Python. Functions are essential for writing reusable and modular code. I learned how to define functions using the def keyword and practiced writing user-defined functions with and without parameters. We explored built-in Python functions like len(), type(), and print(), which helped me better understand how functions can simplify coding tasks. I implemented return statements in functions to fetch results and pass data between functions. Hands-on exercises allowed me to apply these concepts in practical scenarios, such as creating functions for basic mathematical operations (addition, subtraction) and more complex operations like calculating the factorial of a number.
+
+Day 2: Function Arguments and Scope
+
+On Day 2, I delved deeper into function arguments. I studied different types of arguments, including positional, keyword, and default arguments, and explored how arbitrary arguments (e.g., *args and **kwargs) can handle varying numbers of input parameters. This flexibility in function arguments helped me understand how to create more dynamic and versatile functions. Additionally, I learned about variable scope—how variables can be local, global, or nonlocal—and how these scopes affect variable access inside and outside functions. I practiced defining functions that utilized different scopes and the global keyword to modify global variables from within functions. This was crucial for understanding how data flows and is manipulated within Python programs.
+
+Day 3: String Manipulation
+
+Day 3 was dedicated to string manipulation, an essential skill in Python. I learned how to perform basic string operations, such as slicing and indexing, and explored string methods like lower(), upper(), strip(), split(), replace(), and find(). These methods allowed me to clean, format, and search strings more efficiently. I also explored string formatting techniques using f-strings and the format() method, which made it easier to insert dynamic data into strings. To solidify these concepts, I worked on hands-on exercises, such as checking if a string is a palindrome and performing text analysis to count the number of vowels and words in a given sentence.
+
+Day 4: Lists, Tuples, and Sets in Detail
+
+On Day 4, I focused on understanding different data structures—lists, tuples, and sets. I revisited lists and studied list comprehensions, which provide a concise way to create and manipulate lists. I also learned about tuples, which are immutable sequences, and explored how they differ from lists in terms of mutability and use cases. Sets were another important topic I explored, particularly their properties and operations like union, intersection, and difference. I practiced solving problems using these data structures, such as removing duplicates from a list and finding common elements between two sets. By manipulating these structures, I gained a better understanding of their unique properties and how they can be used in Python programs.
+
+Day 5: Dictionaries and File Handling
+
+Day 5 was a blend of learning about dictionaries and handling files. I learned how dictionaries store key-value pairs and how to use methods like get(), keys(), values(), and items() to access and manipulate data. I also worked on creating nested dictionaries and explored how to access deeply nested elements. The second part of the day focused on file handling, where I learned how to open, read, write, and append files using various modes (r, w, a, r+). I practiced writing Python programs to process text files, count the number of words, and store the results in new files. I also learned how to manage errors during file operations using exception handling (try-except), which is important for making code more robust.
+
+Day 6: Introduction to HTML and CSS
+
+The final day of Week 3 introduced the basics of web development with HTML and CSS. I began by studying the structure of an HTML document and familiarized myself with essential tags like <h1>, <p>, <a>, <img>, and forms (<form>, <input>, <button>). I learned how to create a basic webpage with headings, paragraphs, and links, and then styled it using CSS. I explored CSS selectors, including tag, class, and ID selectors, and learned how to apply different styling properties like color, font-size, margin, padding, and background-color. By understanding the Box Model, I was able to create layouts that properly manage spacing and element positioning. To improve the webpage's appearance, I integrated CSS with the HTML structure. Additionally, I learned how Python frameworks like Flask and Django can integrate with web technologies to build dynamic web applications, which prepared me for combining Python with HTML and CSS in future projects.
+
+
+Week 4 Summary (23/12/2024 - 27/12/2024)
+
+Day 1 - 23/12/2024 (Monday): I began Week 4 by diving into Django's core features, focusing on the creation and structure of Django projects. I learned how to set up a Django project and app, exploring the directory structure that Django automatically sets up. I familiarized myself with the settings file where important configurations are stored, and how Django uses URLs to map views to web pages. I also worked on creating my first view in Django to return a simple response to the browser. This was an exciting step as it helped me understand the foundational parts of working with Django.
+
+Day 2 - 24/12/2024 (Tuesday): On Day 2, I focused on Django views and templates. I explored how views handle HTTP requests and return HTTP responses. I learned how to create different views to handle different types of requests, such as GET and POST, and how these views map to specific URLs in the project. I also began learning about Django's templating engine, which allows dynamic content to be displayed on web pages. I practiced passing data from views to templates and rendering HTML content dynamically, which helped me understand how Django generates dynamic web pages.
+
+Day 3 - 25/12/2024 (Wednesday): Day 3 was focused on understanding Django's URL routing system. I learned how to use the urls.py file to map URLs to views, enabling navigation within the application. I practiced creating different routes for various pages and learned how to pass parameters through the URL. I also explored how to organize the URL configuration into reusable patterns, making the project more scalable. This helped me understand how Django handles routing and how URLs are structured in Django applications.
+
+Day 4 - 26/12/2024 (Thursday): I spent Day 4 continuing my work on Django views and templates. I focused on the use of Django template tags and filters to manipulate and display data dynamically in HTML templates. I practiced using template tags like {% if %}, {% for %}, and {% block %}, which allowed me to add logic to my templates. I also learned about inheritance in templates, where I could create a base template with common elements (like headers and footers) and extend it in other templates. This helped me see how Django promotes code reuse and efficient organization.
+
+Day 5 - 27/12/2024 (Friday): On Day 5, I continued to build my Django skills by reviewing everything I had learned. I integrated the views, templates, and URL routing into a small, functional project. I also explored more advanced features like form handling in Django, where I learned how to create forms and handle user input. This step helped me see how Django allows for easy creation of interactive and user-friendly web applications. It also showed me how to handle both static and dynamic content in a web application effectively.
+
+
+Week 5 Summary (30/12/2024 - 03/01/2025)
+30/12/2024 (Monday):
+I created a Django project and a mini application within it, starting with an "About Us" page. I explored how to integrate Bootstrap into my Django application, enhancing the design and responsiveness of the page. I also learned about Django Template Language (DTL), specifically how to use the {% if %} tag to add conditional logic in templates. This allowed me to display dynamic content based on certain conditions, making the page more interactive.
+
+31/12/2024 (Tuesday):
+On this day, I focused on learning how to link URLs in Django using their names. I used Django's URL routing system to link different pages within the application by referencing their names in the urls.py file, which made the code cleaner and more maintainable. I also worked further with DTL, learning how to pass context data from views to templates and render dynamic content on web pages. This helped me gain a deeper understanding of how data flows from the backend (views) to the frontend (templates) in Django.
+
+01/01/2025 (Wednesday):
+It was a holiday, so I took a break from coding.
+
+02/01/2025 (Thursday):
+On this day, I focused on improving the design of my Django project by integrating more Bootstrap components. I created a "Contact" page and worked on refining the layout of my mini website. The use of Bootstrap helped enhance the visual appeal of the site, making it more user-friendly and responsive. This was a significant step in making my website more interactive and polished.
+
+03/01/2025 (Friday):
+I spent Day 5 working with Django’s template inheritance system. I explored how to use {% extends %} and {% block %} tags in Django, which allowed me to reuse HTML code across multiple pages. By creating a base template, I was able to extend it in other templates and define specific content for each page in blocks. This made my code more modular and easier to maintain, as common elements like headers and footers could be reused across all pages of the website.

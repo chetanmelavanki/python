@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MyWebsite</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link"  href="{% url 'webpage' %}>Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="{% url 'about' %}">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'contact' %}">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-light text-center py-5">
+        <h1>Welcome to MyWebsite</h1>
+        <p class="lead">Your one-stop destination for amazing services</p>
+        <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+    </div>
+
+    <!-- Carousel -->
+    <div id="myCarousel" class="carousel slide mt-3" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1521334884684-d80222895322?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" 
+                     class="d-block w-100" alt="Nature">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Explore Nature</h5>
+                    <p>Experience the beauty of nature with us.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" 
+                     class="d-block w-100" alt="Technology">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Innovative Solutions</h5>
+                    <p>We provide cutting-edge technology solutions.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800" 
+                     class="d-block w-100" alt="Business Team">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Teamwork</h5>
+                    <p>Collaborate and grow with our expert team.</p>
+                </div>
+            </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3">
+        <p class="mb-0">© 2025 MyWebsite. All Rights Reserved.</p>
+        <div>
+            <a href="#" class="text-white me-2">Privacy Policy</a>
+            <a href="#" class="text-white">Terms of Use</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
