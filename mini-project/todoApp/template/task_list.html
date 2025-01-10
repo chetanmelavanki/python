@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+</head>
+
+<body>
+    <h2>Task List</h2>
+    <ul>
+        {% for i in task %}
+        <li>
+            {{ i.title }} {% if i.completed %} (Completed) {% endif %}
+            <a href="#">Mark as Completed</a>
+            <a href="#">Delete</a>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>

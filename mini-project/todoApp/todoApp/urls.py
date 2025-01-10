@@ -1,5 +1,5 @@
 """
-URL configuration for my_app project.
+URL configuration for todoApp project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -14,15 +14,10 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-
-from django.urls import path
-from . import views
-
+from django.contrib import admin
+from django.urls import path,include
+from todo import urls
 urlpatterns = [
-    path('', views.home),
-    path('login/', views.login_view, name='login'),
-    path('webpage/',views.website,name='webpage'),
-    path('about/',views.about,name='about'),
-    path('contact/',views.contact,name='contact'),
-    path('register/',views.register,name='register'),
+    path('admin/', admin.site.urls),
+    path('',include(urls))
 ]
