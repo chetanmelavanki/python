@@ -66,14 +66,19 @@
 </head>
 
 <body>
-    <h2>Task List</h2>
+    <h2>
+
+        TASK LSIT
+    </h2>
+    <a style="display: block; text-align: center; margin: 20px 0;" href="{% url 'addtask' %}">Click here to back to add tasks</a>
+
     <ul>
         {% for i in task %}
         <li class="{% if i.completed %}completed{% endif %}">
             <span>{{ i.title }} {% if i.completed %} (Completed) {% endif %}</span>
             <div class="actions">
-                <a href="#">Mark as Completed</a>
-                <a href="#">Delete</a>
+                <a href="{% url 'complete_task' i.id %}">Mark as Completed</a>
+                <a href="{% url 'delete_task' i.id %}">Delete</a>
             </div>
         </li>
         {% endfor %}

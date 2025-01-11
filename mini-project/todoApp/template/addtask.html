@@ -71,10 +71,11 @@
 
 <body>
     <form method="post">
-        <h1>Todo Application</h1>
+        <h1>TODO APPLICATION</h1>
         {% csrf_token %}
         <input type="text" name="title" placeholder="Enter your task..." />
         <button type="submit">Add</button>
+        <a style="display: block; text-align: center; margin: 20px 0;" href="{% url 'task_list' %}">Clicl here to go back to task list</a>
     </form>
 </body>
 
