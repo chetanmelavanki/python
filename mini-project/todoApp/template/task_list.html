@@ -5,16 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h2 {
+            text-align: center;
+            color: #0073e6;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+            max-width: 600px;
+            margin: 20px auto;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        li {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        li:last-child {
+            border-bottom: none;
+        }
+        
+        li.completed {
+            background-color: #e6ffed;
+            text-decoration: line-through;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #0073e6;
+            margin-left: 10px;
+            font-size: 0.9em;
+        }
+        
+        a:hover {
+            color: #005bb5;
+        }
+        
+        .actions {
+            display: flex;
+            gap: 10px;
+        }
+    </style>
 </head>
 
 <body>
     <h2>Task List</h2>
     <ul>
         {% for i in task %}
-        <li>
-            {{ i.title }} {% if i.completed %} (Completed) {% endif %}
-            <a href="#">Mark as Completed</a>
-            <a href="#">Delete</a>
+        <li class="{% if i.completed %}completed{% endif %}">
+            <span>{{ i.title }} {% if i.completed %} (Completed) {% endif %}</span>
+            <div class="actions">
+                <a href="#">Mark as Completed</a>
+                <a href="#">Delete</a>
+            </div>
         </li>
         {% endfor %}
     </ul>
