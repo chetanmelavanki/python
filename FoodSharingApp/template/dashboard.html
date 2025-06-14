@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <h1>Available Food Listings</h1>
+    <a href="{% url 'add_food' %}">Add Food</a>
+    <ul>
+        {% for food in food_listings %}
+        <li>
+            <h2>{{ food.food_name }}</h2>
+            <p>{{ food.description }}</p>
+            <p>Quantity: {{ food.quantity }}</p>
+            <p>Location: {{ food.location }}</p>
+            <a href="{% url 'request_food' food.id %}">Request Food</a>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>

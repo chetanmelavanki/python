@@ -1,0 +1,63 @@
+Week 1 Summary
+
+Day 1 04-12-2024:
+On the first day, I explored the basics of Python and understood why Python is essential in modern programming. Python stands out due to its simplicity, versatility, and extensive libraries, making it a popular choice for data analysis, web development, automation, and artificial intelligence. Its beginner-friendly syntax allows developers to focus on problem-solving rather than complex coding constructs.
+
+Day 2 05-12-2024:
+The second day was focused on writing my first Python program, the classic "Hello, World!". This simple exercise helped me understand Python's straightforward syntax and how to execute code using an interpreter or IDE. Alongside this, I learned about the importance of SQL (Structured Query Language) in managing and interacting with databases. SQL is crucial for querying, updating, and organizing data in relational databases, which are foundational for data-driven applications.
+
+Day 3 06-12-2024:
+On the third day, I dived into declaring variables in Python. Variables are essential for storing and manipulating data, and Python makes this easy with its dynamic typing. Additionally, I began learning about SQL constraints, which ensure data integrity in databases. Common constraints like PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, and CHECK help enforce rules for data consistency and reliability.
+
+
+-----------------------------------------
+30-12-2024 Monday -------- created Django project and mini application within it about us page in Django and boot strap AND USED FOR IF OF DJANGO DTL
+
+31-12-2024 Tuesday --------- how to link url using name of Django and also we used dtl(Django template language)
+
+01-01-2025 Wednesday --------- Holliday
+
+02-01-2025 Thursday ------------- using more bootstrap design and created contact page home like small mini website 
+
+03-01-2025 Friday ----------- website and Django extends i,e Django dtl and extends and block content html pages in another html page 
+
+------------------------------------
+week 5 summary
+
+Day 1: 30-12-2024 (Monday)
+Created a Django Project: Learned how to start a Django project using the django-admin startproject command and set up the initial project structure. Understood the importance of files like settings.py, urls.py, and wsgi.py.
+Developed a Mini Application: Created a Django application using python manage.py startapp and linked it to the main project by adding it to the INSTALLED_APPS list in settings.py.
+"About Us" Page: Built an "About Us" page using Django views and templates. Gained hands-on experience in creating basic views and rendering them using Django's template engine.
+Django Template Language (DTL): Explored the use of conditional statements ({% if %} and {% endif %}) in DTL to display dynamic content based on certain conditions.
+Bootstrap Integration: Integrated Bootstrap into the Django project to enhance the visual appeal of the "About Us" page.
+Day 2: 31-12-2024 (Tuesday)
+URL Routing with name: Learned how to define URL patterns in Django using path() and assign name attributes for easy linking between pages. Practiced using the {% url %} tag in templates to create dynamic links.
+Django Template Language (DTL): Continued exploring DTL by using expressions and variables to dynamically display data in the templates. Understood how to pass context from views to templates.
+Linking Pages: Implemented navigation by linking pages (e.g., Home and About Us) to create a smooth user experience.
+Day 3: 01-01-2025 (Wednesday)
+Holiday
+
+Day 4: 02-01-2025 (Thursday)
+Bootstrap Designs: Focused on improving the website's appearance using more advanced Bootstrap components, such as cards, grids, buttons, and navigation bars. This helped make the website responsive and visually appealing.
+Contact Page: Created a "Contact" page, demonstrating the ability to add forms and other interactive elements. Practiced structuring HTML content with Bootstrap for consistency.
+Mini Website: Combined the "About Us" and "Contact" pages with a Home page, creating a basic mini website with cohesive design and navigation.
+Day 5: 03-01-2025 (Friday)
+Template Reusability with extends: Learned how to create a base template with common elements like headers, footers, and navigation bars. Used the {% extends %} tag to reuse this base template in other pages.
+Dynamic Content Blocks with block: Explored the use of {% block %} and {% endblock %} to define placeholders for page-specific content in templates. This approach helped maintain consistency across the website while allowing customization for individual pages.
+Practical Implementation: Updated the "About Us" and "Contact" pages to extend the base template, ensuring uniform design and reducing code duplication.
+
+--------------------------------------------
+
+06-01-2025 Monday----------- creating forms and class as login form as username and password using inheritance of forms usig {{ form.as_p }} csrf token(security purpose i,e cookies)  <!-- Renders the form fields as paragraphs -->, cookies explanation 
+07-01-2025 Tuesday ----------- continuing with login simple form and also we come through post get put delete methods and patch vs put  ... 2 commands py manage.py migrate py manage.py makemigrations
+08-01-2025 Wedneday ---------- repeating yesterday once again and someof we have doubts regarding yesterday stacks so revieving those
+09-01-2025 Thursday ---------- because of protest in hubli we have holliday
+10-01-2025 Friday ----------- started with todo list project created modules and views of that todo list 	
+11-01-2025 Saturday ----------- integrated with database and ui of todo list application
+
+-------------------------------------------
+
+13-01-2025 Monday
+14-01-2025 Tuesday -------- holiday
+15-01-2025 Wednessday----- 
+16-01-2025 Thursday  ------ about api openwather 49c59d4c90be76bf9623dd5644844d6b

@@ -69,6 +69,7 @@ Day 4 - 26/12/2024 (Thursday): I spent Day 4 continuing my work on Django views 
 
 Day 5 - 27/12/2024 (Friday): On Day 5, I continued to build my Django skills by reviewing everything I had learned. I integrated the views, templates, and URL routing into a small, functional project. I also explored more advanced features like form handling in Django, where I learned how to create forms and handle user input. This step helped me see how Django allows for easy creation of interactive and user-friendly web applications. It also showed me how to handle both static and dynamic content in a web application effectively.
 
+---------------------------------------
 
 Week 5 Summary (30/12/2024 - 03/01/2025)
 30/12/2024 (Monday):
@@ -85,3 +86,47 @@ On this day, I focused on improving the design of my Django project by integrati
 
 03/01/2025 (Friday):
 I spent Day 5 working with Django’s template inheritance system. I explored how to use {% extends %} and {% block %} tags in Django, which allowed me to reuse HTML code across multiple pages. By creating a base template, I was able to extend it in other templates and define specific content for each page in blocks. This made my code more modular and easier to maintain, as common elements like headers and footers could be reused across all pages of the website.
+
+
+----------------------------------------------------
+
+week 6 report
+
+Day 1 (06-01-2025, Monday):
+I began the week by learning how to create forms in Django using the forms.ModelForm class, which simplifies form creation by leveraging model attributes. I implemented a login form with fields for username and password, and used the {{ form.as_p }} syntax to render form fields as paragraphs for better readability. Additionally, I added a CSRF token to ensure security by preventing cross-site request forgery attacks. During this session, I also learned how cookies are used to manage session data securely and how the CSRF token leverages cookies for validation.
+
+Day 2 (07-01-2025, Tuesday):
+Continuing with the login form, I explored HTTP methods including POST, GET, PUT, and DELETE. I gained a clear understanding of how these methods are used in web development and also discussed the differences between PATCH and PUT. PATCH is used for partial updates, while PUT is used for full updates of resources. To complement this, I practiced using the Django commands py manage.py migrate and py manage.py makemigrations to apply and manage database changes effectively.
+
+Day 3 (08-01-2025, Wednesday):
+On Wednesday, I revisited the concepts covered on Monday and Tuesday to reinforce my understanding. I also clarified doubts about Django stacks, particularly focusing on the flow of HTTP methods and how they integrate with Django's request-response cycle. This review session helped solidify my knowledge and boosted my confidence.
+
+Day 4 (09-01-2025, Thursday):
+This was a holiday due to protests in Hubli. I used this time to reflect on the concepts learned so far and planned the upcoming tasks for the week.
+
+Day 5 (10-01-2025, Friday):
+I started a new project—a "To-Do List" application. I worked on designing the application's structure and created modules and views for managing tasks. This involved setting up the application’s models, defining views for task operations, and planning the logic for adding, updating, and deleting tasks.
+
+Day 6 (11-01-2025, Saturday):
+I integrated the "To-Do List" application with a database to store and manage tasks persistently. I worked on enhancing the user interface using Bootstrap to ensure a visually appealing and user-friendly design. Additionally, I refined the functionality by testing the CRUD (Create, Read, Update, Delete) operations and ensuring the application performed seamlessly.
+
+----------------------------
+week 7 report
+
+Day 1 (13-01-2025, Monday):
+I began the week by learning about API integrations in Django, focusing on how to make HTTP requests to external APIs and process their responses. I explored the use of Python libraries like requests to interact with APIs and discussed best practices for managing API keys securely. Additionally, I learned how to handle JSON responses and display the fetched data dynamically on Django templates.
+
+Day 2 (14-01-2025, Tuesday):
+This was a holiday for Makar Sankranti.
+
+Day 3 (15-01-2025, Wednesday):
+I reviewed the migration process in Django to ensure smooth database schema updates. This included the use of makemigrations and migrate commands and a discussion on how to resolve common issues, such as conflicts or missing migrations. I also revisited the previous day’s API concepts and clarified doubts about error handling in API calls.
+
+Day 4 (16-01-2025, Thursday):
+I learned about the OpenWeather API and its integration into Django projects. I practiced using the API key 49c59d4c90be76bf9623dd5644844d6b to fetch weather data, parsed the JSON responses, and explored how to present this information on a Django web page dynamically.
+
+Day 5 (17-01-2025, Friday):
+I focused on connecting API data with Django views and templates. This included passing data retrieved from APIs to Django templates using context dictionaries and displaying the data using Django Template Language (DTL). I practiced rendering real-time API data on a user-friendly web interface, ensuring accurate and dynamic updates.
+
+Day 6 (18-01-2025, Saturday):
+I continued integrating APIs into Django, refining my understanding of making API calls, handling errors, and optimizing API responses for better performance. Additionally, I revisited all the week’s topics—API integrations, models, migrations, and templates—to strengthen my overall knowledge and apply it cohesively to Django projects.
